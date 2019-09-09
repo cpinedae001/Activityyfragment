@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <fragment
+        android:id="@+id/dataFragment"
+        android:name="com.umg.cpineda.activityyfragment.DatosFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        tools:layout="@layout/fragment_datos"></fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.umg.cpineda.activityyfragment.DetailsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        tools:layout="@layout/fragment_details"></fragment>
+</LinearLayout>
